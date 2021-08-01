@@ -12,14 +12,15 @@
         let s = 0;
         let dem =1;
         let i = 1;
-        while (dem <30) {
+        while (dem <=30) {
             if (i % 7 ==0){
                 s +=i;
                 dem++; 
+                document.write(i+', ');
             }
-            i++;
+            i++;  
         }
-        alert(s);
+        document.write('Tổng của 30 số chia hết cho 7 là: '+s);
     </script>
 </body>
 </html>
