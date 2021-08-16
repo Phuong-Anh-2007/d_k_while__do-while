@@ -9,10 +9,8 @@
 <body>
     <!-- Bài 6: Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên -->
     <script>
-        let s = 0;
-        let dem =1;
-        let i = 1;
-        while (dem <=30) {
+        let s = 0, dem =0, i=1;
+        while (dem <30) {
             if (i % 7 ==0){
                 s +=i;
                 dem++; 
@@ -20,7 +18,7 @@
             }
             i++;  
         }
-        document.write('Tổng của 30 số chia hết cho 7 là: '+s);
+        document.write(' <br> <br> Tổng của 30 số chia hết cho 7 là: '+s);
     </script>
 </body>
 </html>
